@@ -2,7 +2,7 @@ import pyodbc as pdb
 import pandas as pd
 from credenciais_acesso import Credenciais as cr
 
-
+##Esse arquivo é responsável por buscar as credenciais de acesso e executar a consulta sql com aquelas credenciais
 
 class Repository(object):
 
