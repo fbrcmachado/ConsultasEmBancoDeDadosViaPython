@@ -7,6 +7,7 @@ from databases import Contextos as ctx
 ## do metodo base, que serve para executar as consultas, passando como  parametro o construtor self, o texto da consulta (resultado da chamada do método GetAll) e o contexto (retronado
 ## pelo método Banco1() - que retornará no caso o banco 1)
 ## Fora da classe, temos apenas a chamada do método RetornaDados(), armazenado na variável x. 
+
 class Consulta(object):
      def __init__(self):
          self.password = ""
