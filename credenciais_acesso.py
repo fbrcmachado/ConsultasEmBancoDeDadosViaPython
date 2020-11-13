@@ -1,5 +1,7 @@
 class Credenciais():
     
+    ##  Desta forma temos tudo centralizado em um local, a classe Repository irá chamar as credenciais corretas
+    
     def GetCredenciaisBanco1(self):
         self.username = "LOGIN"
         self.password = "SENHA"
